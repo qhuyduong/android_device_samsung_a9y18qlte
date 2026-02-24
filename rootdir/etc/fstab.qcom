@@ -7,7 +7,7 @@
 
 # Non-A/B fstab.qcom variant
 #<src>					<mnt_point>		<type>	<mnt_flags and options>		<fs_mgr_flags>
-/dev/block/bootdevice/by-name/system	/			ext4	ro,barrier=1,discard		wait
+/dev/block/bootdevice/by-name/system	/system			ext4	ro,barrier=1,discard		wait
 /dev/block/bootdevice/by-name/vendor	/vendor			ext4	ro,barrier=1			wait
 /dev/block/bootdevice/by-name/misc	/misc			emmc	defaults			defaults
 /dev/block/bootdevice/by-name/boot	/boot			emmc	defaults			defaults
