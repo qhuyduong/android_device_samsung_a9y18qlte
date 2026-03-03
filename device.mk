@@ -124,7 +124,14 @@ PRODUCT_COPY_FILES += \
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
-	
+
+# Vendor mount-point directories (ensure they exist in vendor image)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/empty:$(TARGET_COPY_OUT_VENDOR)/bt_firmware/.keep \
+    $(LOCAL_PATH)/prebuilt/empty:$(TARGET_COPY_OUT_VENDOR)/dsp/.keep \
+    $(LOCAL_PATH)/prebuilt/empty:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/.keep \
+    $(LOCAL_PATH)/prebuilt/empty:$(TARGET_COPY_OUT_VENDOR)/firmware-modem/.keep
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl

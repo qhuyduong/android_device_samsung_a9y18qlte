@@ -34,9 +34,7 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # ANT
 lib/com.qualcomm.qti.ant@1.0.so
--lib/libantradio.so
 lib64/com.qualcomm.qti.ant@1.0.so
--lib64/libantradio.so
 vendor/lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
@@ -1560,3 +1558,30 @@ vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel
 vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt
 vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn_light.caffemodel
+
+vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0_vendor.so
+vendor/lib64/libjson.so
+vendor/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib64/libqti_vndfwk_detect.so
+vendor/lib64/vendor.samsung.hardware.health@1.0.so
+vendor/lib64/libperfconfig.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/android.hardware.camera.provider@2.5-legacy.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-impl.so
+
+vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
+vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
+vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
+vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
+vendor/lib64/libhwc2on1adapter.so
+vendor/lib64/libhwc2onfbadapter.so
+
+vendor/bin/hw/android.hardware.audio@2.0-service
+vendor/etc/init/android.hardware.audio@2.0-service.rc
